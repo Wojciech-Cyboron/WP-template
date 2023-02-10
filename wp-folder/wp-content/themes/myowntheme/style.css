@@ -1,0 +1,60 @@
+/*
+theme name:          MyNewTheme Wojtek
+theme uri:           https://codepen.io/Cocoradler/pen/GRvymmo
+description:         Mój pierwszy własny motyw by Wojtek
+version:             0.1.0
+requires at least:   5.0
+requires php:        7.0
+author:              Wojtek Cyboroń
+license:             gpl v2 or later
+tags:                some-tags,another-tag 
+tested up to         5.4
+text domain:         #
+
+https://codex.wordpress.org/Plugin_API/Action_Reference
+ 
+https://codex.wordpress.org/Plugin_API/Filter_Reference
+ */
+
+ a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    display: block;
+    margin: 0 200px;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.col-sm-8 {
+    display: block;
+    width: 70%;
+}
+
+.col-sm-3 {
+    display: block;
+    width: 30%;
+    text-align: center;
+}
+
+.navbar {
+    margin: 25px 0 20px 0;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+
+}
+
+hr {
+    border-top: 2px solid black;
+}
